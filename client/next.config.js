@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Specify the src directory as the location of pages/app
+  distDir: '.next',
+
   images: {
     unoptimized: true,
     domains: [
